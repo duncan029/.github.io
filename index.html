@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Number System Converter</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+<style>
+#logo {
+width: 100px;
+height: 100px;
+background-color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+color: green;
+font-size: 40px;
+font-weight: bold;
+font-family: Arial, sans-serif;
+}
+body {
+font-family: Arial, sans-serif;
+background-color: #000;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+margin: 0;
+overflow: hidden;
+}
+.container {
+  text-align: center;
+  width: 75%;
+}
+
+h1 {
+  color: #fff;
+}
+
+label {
+  font-weight: bold;
+  color: #fff;
+}
+
+input[type="text"] {
+  padding: 5px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 0;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+#matrix {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  z-index: -1;
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>Number System Converter</h1>
+    
+    <div class="input-container">
+      <label for="decimalInput">Decimal:</label>
+      <input type="text" id="decimalInput" placeholder="Enter a decimal number">
+    </div>
+    
+    <div class="input-container">
+      <label for="binaryInput">Binary:</label>
+      <input type="text" id="binaryInput" placeholder="Enter a binary number">
+    </div>
+    
+    <div class="input-container">
+      <label for="octalInput">Octal:</label>
+      <input type="text" id="octalInput" placeholder="Enter an octal number">
+    </div>
+    
+    <div class="input-container">
+      <label for="hexadecimalInput">Hexadecimal:</label>
+      <input type="text" id="hexadecimalInput" placeholder="Enter a hexadecimal number">
+    </div>
+  </div>
+<script src="C:\Users\LE\Documents\conversion.js"></script>
+  <canvas id="matrix"></canvas>
+  <script src="C:\Users\LE\Documents\matrix.js"></script>
+</body>
+</html>
