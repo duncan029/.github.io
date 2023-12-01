@@ -7,7 +7,7 @@ canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
 const columns = Math.floor(canvas.width / 20); // Number of columns for the matrix effect
-const matrix = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%^&*()'; // Characters used in the matrix effect
+const matrix = '101010100101ABCDEF'; // Characters used in the matrix effect
 
 // Create an array of column positions
 const columnPos = [];
